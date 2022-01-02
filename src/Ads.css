@@ -1,0 +1,14 @@
+.ads{
+    display: flex;
+    flex-direction: column;
+    flex : 0.23;
+    margin-left: 50px;
+    background-color: #fffefa;
+}
+
+.casio{
+    width: 85%;
+    margin-left: 55px;
+    width: 50%;
+    margin-top: 15px;
+}

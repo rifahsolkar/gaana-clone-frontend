@@ -1,0 +1,14 @@
+.list > img{
+    border-radius: 10px;
+    height: 150px;
+}
+
+.list>p{
+    font-weight: 480;
+    font-size: 18px;
+    margin-top: -3px;
+}
+
+.list{
+    margin-right: 43px;
+}

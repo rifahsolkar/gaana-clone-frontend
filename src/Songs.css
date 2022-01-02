@@ -1,0 +1,14 @@
+.songs{
+    display: flex;
+    flex-direction: column;
+    flex: 0.77;
+    /* border : 1px solid purple; */
+    /* height: 100vh; */
+    margin-left: 55px;
+}
+
+
+.songs__lists{
+    display: flex;
+}
+

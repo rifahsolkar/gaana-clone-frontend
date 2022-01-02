@@ -1,0 +1,93 @@
+.navbar__image{
+    justify-content: center;
+    height: 60px;
+    padding-left: 25px;
+}
+
+.navbar1{
+    padding-left: 55px;
+    /* margin-top: -8px; */
+    display: flex;
+    
+    align-items: center;
+}
+
+.navbar__search{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    border : 1px solid #888888;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.search{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.ad{
+    font-size: 12px;
+    color: red;
+    display: flex;
+    margin-left : 280px;
+    margin-right: 10px;
+}
+
+.ad > p{
+    margin-right: 25px;
+    border : 1px solid red;
+    padding : 5px;
+    border-radius: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: bold;
+}
+
+.navbar1 >h5{
+    color: #4d4a49;
+}
+
+.bi-translate{
+    margin-right: 20px;
+}
+
+.bi-moon{
+    margin-right: 20px;
+}
+
+.ad > p:hover{
+    color : #ff6738;
+    transition: 5ms ease-out;
+}
+
+.navbar2{
+    margin-left : 10px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+    color: #888888;
+    /* overflow-y: scroll; */
+    /* overflow: hidden; */
+
+}
+
+.navbar2 > p{
+    margin-right: 50px;
+}
+
+
+.navbar2 > p:hover{
+    color : #bab9b8;
+    border-bottom : 2px solid #f74885;
+    transition: 90ms ease-out;
+    cursor: pointer;
+}

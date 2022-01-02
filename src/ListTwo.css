@@ -1,0 +1,15 @@
+.listTwo > img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.listTwo > p{
+    text-align: center;
+    font-weight: 480;
+    font-size: 18px;
+    margin-top: -3px;
+}
+
+.listTwo{
+    margin-right: 43px;
+}
