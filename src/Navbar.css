@@ -85,7 +85,7 @@
 }
 
 
-.navbar2 > p:hover{
+.navbar2 p:hover{
     color : #bab9b8;
     border-bottom : 2px solid #f74885;
     transition: 90ms ease-out;

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";  
 import List from './List';
 import ListTwo from './ListTwo';
+import Footer from './Footer'
 
 function Songs() {
     
@@ -59,6 +60,8 @@ function Songs() {
                 <ListTwo image="https://a10.gaanacdn.com/gn_img/g_radio_circle/4Z9bqZoKyQ/4Z9bqNPKyQ/size_m_1628848671.webp" title="90'S ki Cassette"/>
                 <ListTwo image="https://a10.gaanacdn.com/gn_img/g_radio_circle/a7LWBkzbzX/a7LWBwkbzX/size_m_1567583320.webp" title="Chill Music"/>
             </div>
+
+            <Footer/>
         </div>
     )
 }
