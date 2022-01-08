@@ -17,6 +17,7 @@ import NewSongs from "./Routes/NewSongs";
 import OldSongs from "./Routes/OldSongs";
 import Podcast from "./Routes/Podcast";
 import Radio from "./Routes/Radio";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -35,41 +36,49 @@ function App() {
           <Route exact path="/trending">
             <Navbar />
             <Trend />
+            <Footer/>
           </Route>
 
           <Route exact path="/album">
             <Navbar />
             <Album />
+            <Footer/>
           </Route>
 
           <Route exact path="/moods">
             <Navbar />
             <Moods />
+            <Footer/>
           </Route>
 
           <Route exact path="/mymusic">
             <Navbar />
             <MyMusic />
+            <Footer/>
           </Route>
 
           <Route exact path="/newsongs">
             <Navbar />
             <NewSongs />
+            <Footer/>
           </Route>
 
           <Route exact path="/oldsongs">
             <Navbar />
             <OldSongs />
+            <Footer/>
           </Route>
 
           <Route exact path="/podcast">
             <Navbar />
             <Podcast />
+            <Footer/>
           </Route>
 
           <Route exact path="/radio">
             <Navbar />
             <Radio />
+            <Footer/>
           </Route>
 
 
