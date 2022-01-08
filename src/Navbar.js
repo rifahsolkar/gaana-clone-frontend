@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import Login from './Login'
 
 function Navbar() {
     return (
@@ -28,7 +29,7 @@ function Navbar() {
 
                 <i class="bi bi-moon"></i>
 
-                <h5>Log In / Sign Up</h5>
+                <Login/>
             </div>
 
             <div className='navbar2'>

@@ -1,0 +1,9 @@
+.login_inner > button{
+    color: #4d4a49;
+    outline: none;
+    border: none;
+    background-color: Transparent;
+background-repeat:no-repeat;
+    cursor: pointer;
+    font-weight: bold;
+}
