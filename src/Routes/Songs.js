@@ -1,18 +1,8 @@
-import React from 'react'
-import './Album.css'
-import List from './List';
-import Heading from './Heading';
+import React from 'react';
 
-function Album() {
-    return (
-        <div>
-        <div className='album'>
-        <div className='allAlbum'>
-                <div className='top'>
-                    <h3>Album Songs</h3>
-                </div>
-                <Heading/>
-                <div className='songs__lists'>
+function Songs() {
+  return (<div className='sonsgs'>
+      <div className='songs__lists'>
                 <List image="https://a10.gaanacdn.com/gn_img/albums/DwPKOkBKqV/PKOxyP8a3q/size_m.jpg" title="O Aasman Wale" />
                 <List image="https://a10.gaanacdn.com/gn_img/albums/7rVW1aRWk5/VW1alznLWk/size_m.jpg" title="Light Switch" />
                 <List image="https://a10.gaanacdn.com/gn_img/albums/dwN39y83DP/N39yPRVZ3D/size_m.jpg" title="Ek Mili Mainu Apsraa" />
@@ -28,12 +18,7 @@ function Album() {
                 <List image="https://a10.gaanacdn.com/gn_img/albums/R7vKX66Wmr/vKX6oez6Wm/size_m.jpg" title="Mohabbat"/>
                 <List image="https://a10.gaanacdn.com/gn_img/albums/R7vKX6WmrP/7vKXAym63m/size_m.webp" title="Love Nwantiti"/>
             </div>
-            
-            </div>
-        </div>
-        </div>
-        
-    )
+  </div>);
 }
 
-export default Album
+export default Songs;

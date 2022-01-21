@@ -3,9 +3,9 @@ import './Songs.css'
 import "slick-carousel/slick/slick.css";  
 import "slick-carousel/slick/slick-theme.css";  
 import Slider from "react-slick";  
-import List from './List';
-import ListTwo from './ListTwo';
+import ListTwo from './Routes/ListTwo';
 import Footer from './Footer'
+import List from './Routes/List';
 
 function Songs() {
     

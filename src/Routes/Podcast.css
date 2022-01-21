@@ -1,0 +1,14 @@
+.podcast{
+    display: flex;
+    flex-direction: column;
+    flex: 0.77;
+    overflow-x: hidden;
+}
+
+.allPodcast{
+    display: flex;
+    flex-direction: column;
+    flex : 0.77;
+    margin-left: 55px;
+    overflow-x: hidden;
+}

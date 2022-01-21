@@ -41,7 +41,11 @@ function App() {
 
           <Route exact path="/album">
             <Navbar />
+            <div className='mainpage'>
             <Album />
+              <Ads />
+            </div>
+            
             <Footer/>
           </Route>
 
@@ -59,7 +63,11 @@ function App() {
 
           <Route exact path="/newsongs">
             <Navbar />
+            <div className='mainpage'>
             <NewSongs />
+              <Ads />
+            </div>
+            
             <Footer/>
           </Route>
 
@@ -71,13 +79,19 @@ function App() {
 
           <Route exact path="/podcast">
             <Navbar />
+            <div className='mainpage'>
             <Podcast />
+              <Ads />
+            </div>
             <Footer/>
           </Route>
 
           <Route exact path="/radio">
             <Navbar />
+            <div className='mainpage'>
             <Radio />
+              <Ads />
+            </div>
             <Footer/>
           </Route>
 
