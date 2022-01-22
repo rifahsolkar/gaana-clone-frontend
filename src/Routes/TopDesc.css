@@ -1,0 +1,28 @@
+.topDesc{
+    display: flex;
+    align-items: flex-end;
+}
+
+.part1>img{
+    height: 300px;
+}
+
+.common{
+    border : 1px solid red;
+    padding : 6px 30px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+}
+
+.part2{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.part2 >p{
+    color: #888888;
+    line-height: 50%;
+}
+

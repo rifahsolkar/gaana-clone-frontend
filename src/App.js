@@ -9,7 +9,7 @@ import Navbar from './Navbar';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Songs from './Songs';
 import Ads from './Ads';
-import Trend from './Trend';
+import Trend from './Routes/Trend';
 import Album from "./Routes/Album";
 import Moods from "./Routes/Moods";
 import MyMusic from "./Routes/MyMusic";
@@ -35,18 +35,26 @@ function App() {
 
           <Route exact path="/trending">
             <Navbar />
+            <div className='mainpage'>
+              <div className="combined">]
             <Trend />
             <Footer/>
+
+              </div>
+              <Ads />
+            </div>
           </Route>
 
           <Route exact path="/album">
             <Navbar />
             <div className='mainpage'>
+              <div className="combined">
+              
             <Album />
+            <Footer/>
+              </div>
               <Ads />
             </div>
-            
-            <Footer/>
           </Route>
 
           <Route exact path="/moods">
@@ -57,42 +65,62 @@ function App() {
 
           <Route exact path="/mymusic">
             <Navbar />
-            <MyMusic />
-            <Footer/>
+            <div className='mainpage'>
+              <div className="combined">
+                <MyMusic/>
+                <Footer/>
+              </div>
+              <Ads/>
+            </div>
           </Route>
 
           <Route exact path="/newsongs">
             <Navbar />
             <div className='mainpage'>
+              <div className="combined">
             <NewSongs />
+            <Footer/>
+            </div>
               <Ads />
             </div>
             
-            <Footer/>
           </Route>
 
           <Route exact path="/oldsongs">
             <Navbar />
-            <OldSongs />
-            <Footer/>
+            <div className='mainpage'>
+              <div className="combined">
+              <OldSongs />
+              <Footer/>
+              </div>
+              <Ads />
+              </div>
+            
           </Route>
 
           <Route exact path="/podcast">
             <Navbar />
             <div className='mainpage'>
-            <Podcast />
+              <div className="combined">
+
+              <Podcast />
+              <Footer/>
+
+              </div>
               <Ads />
             </div>
-            <Footer/>
           </Route>
 
           <Route exact path="/radio">
             <Navbar />
             <div className='mainpage'>
-            <Radio />
+              <div className="combined">
+              <Radio />
+              <Footer/>
+              </div>
+            
               <Ads />
             </div>
-            <Footer/>
           </Route>
 
 

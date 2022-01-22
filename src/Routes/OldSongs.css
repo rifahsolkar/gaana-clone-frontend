@@ -1,0 +1,14 @@
+.oldSongs{
+    display: flex;
+    flex-direction: column;
+    flex : 0.77;
+    margin-left: 55px;
+}
+
+.topOldSongs{
+    margin-bottom: 15px;
+}
+
+.oldSongRow{
+    margin-top: 20px;
+}

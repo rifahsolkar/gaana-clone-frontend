@@ -1,9 +1,13 @@
 import React from 'react'
+import './MyMusic.css'
 
 function MyMusic() {
     return (
         <div className='myMusic'>
-            <h1>My Music page</h1>
+            <div className='playlist'>
+                <i class="bi bi-music-note"></i>
+                <b>Create Playlist</b>
+            </div>
         </div>
     )
 }

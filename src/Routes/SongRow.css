@@ -1,0 +1,29 @@
+.songList{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #d4d4d4;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+.titleSong{
+    margin-left: 20px;
+    width: 42%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.songp1{
+    font-size: 11px;
+    color: #888888;
+    width: 47%;
+}
+
+.songp2{
+    right: 0px;
+    color: #888888;
+}
+
+.container > img{
+    border-radius: 5px;
+}

@@ -33,7 +33,9 @@ function Navbar() {
             </div>
 
             <div className='navbar2'>
+            <Link to='/' className='nd'>
                 <p>All</p>
+                </Link>
                 <Link to='/trending' className='nd'>
                     <p >Trending Songs</p>
                 </Link>

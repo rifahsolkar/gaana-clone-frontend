@@ -1,0 +1,14 @@
+.trend{
+    display: flex;
+    flex-direction: column;
+    flex : 0.77;
+    margin-left: 55px;
+}
+
+.topTrend{
+    margin-bottom: 15px;
+}
+
+.trendRow{
+    margin-top: 20px;
+}

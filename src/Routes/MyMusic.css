@@ -1,0 +1,17 @@
+.playlist{
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    padding : 10px 40px;
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.playlist:hover{
+    cursor: pointer;
+}
+
+.playlist > b{
+    margin-left: 7px;
+}
