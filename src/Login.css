@@ -6,4 +6,28 @@
 background-repeat:no-repeat;
     cursor: pointer;
     font-weight: bold;
+    display: flex;
+}
+
+.poppart1{
+    flex: 0.5;
+}
+
+.poppart2{
+    flex:0.5;
+}
+
+.poppart2 > img{
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.popnew{
+    display: flex;
+}
+
+.popnew > img{
+    height: fit-content;
+    width: auto;
 }

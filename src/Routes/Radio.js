@@ -8,19 +8,20 @@ function Radio() {
         <div className='radio'>
             <div className='allRadio'>
                 <div className='top'>
-                    <h3>Album Songs</h3>
+                    <h3>Radio</h3>
                 </div>
                 <Heading/>
+                <h2>Mirchi Play</h2>
                 <div className='songs__lists'>
-                <ListTwo image="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_m_1638898900.webp" title="Arjit Singh"/>
-                <ListTwo image="https://a10.gaanacdn.com/gn_img/artists/21GWwrR3pk/1GWwYz4DKp/size_m_1567610470.webp" title="Tanishk Bagchi"/>
-                <ListTwo image="https://a10.gaanacdn.com/gn_img/artists/zLp36PvbrG/Lp36AR0KrG/size_m_1516707336.webp" title="Pritam"/>
-                <ListTwo image="https://a10.gaanacdn.com/gn_img/artists/Rz4W87v3xD/Rz4W8ppWxD/size_m_1638817418.webp" title="Neha Kakkar"/>
-                <ListTwo image="https://a10.gaanacdn.com/gn_img/artists/9MAWe7KyJe/MAWe9lBGWy/size_m_1516185303.webp" title="Badshah"/>
-                <ListTwo image="https://a10.gaanacdn.com/gn_img/artists/6Zxb2r7b9w/Zxb2xp0w39/size_m.jpg" title="B Praak"/>
+                <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/DwPKOBbqVZ/DwPKOBbqVZ/size_m_1563783835.webp" title="Mirchi 90's Radio.."/>
+                <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/qa4WEqWP1p/qa4WEqWP1p/size_m_1563783408.webp" title="Meethi Mirchi ..."/>
+                <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/Bp1bAnK029/Bp1bAnK029/size_m_1637922143.webp" title="Mirchi Campus"/>
+                <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/6Zxb27K9wN/6Zxb27K9wN/size_m_1586325953.webp" title="Mirchi Tootha Dil"/>
+                <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/w4MKPObojg/w4MKPObojg/size_m_1563783532.webp" title="Club - Mirchi.."/>
+                <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/koMWQBbqLE/koMWQBbqLE/size_m_1637242935.webp" title="Mirchi Indies..."/>
             </div>
 
-            <h2>Radio</h2>
+            <h2>Popular Gaana Radio</h2>
             <div className='songs__lists'>
                 <ListTwo image="https://a10.gaanacdn.com/gn_img/m_radio_circle/w4MKPObojg/w4MKPObojg/size_m_1563783532.webp" title="Club Mirchi Radio"/>
                 <ListTwo image="https://a10.gaanacdn.com/gn_img/g_radio_circle/DwPKOxB3qV/DwPKOwkKqV/size_m_1567583117.webp" title="Party Non Stop"/>

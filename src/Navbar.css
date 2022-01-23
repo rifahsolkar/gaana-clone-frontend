@@ -89,3 +89,13 @@
     cursor: pointer;
 }
 
+.sub-menu-1{
+    display: none;
+}
+
+.new1 :hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}

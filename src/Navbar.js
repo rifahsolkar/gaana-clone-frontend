@@ -45,8 +45,20 @@ function Navbar() {
                 <Link to='/oldsongs' className='nd'>
                     <p>Old Songs</p>
                 </Link>
-                <Link to='/moods' className='nd'>
+                <Link to='/moods' className='nd new1'>
                     <p>Moods & Genre</p>
+                    <div className='sub-menu-1'>
+                    <ul>
+                        <li>Party</li>
+                        <li>Romance</li>
+                        <li>90s and Early 20s</li>
+                        <li>Retro</li>
+                        <li>Indie</li>
+                        <li>Bhakti</li>
+                        <li>EDM</li>
+                        <li>Ghazals</li>
+                    </ul>
+                    </div>
                 </Link>
                 <Link to='/album' className='nd'>
                     <p>Album</p>

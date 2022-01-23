@@ -4,7 +4,16 @@
 }
 
 .heading >p{
-    border: 1px solid gray;
     padding: 5px 15px;
     border-radius: 20px;
+}
+
+.rem{
+    border: 1px solid gray;
+}
+
+.new2{
+    color : white;
+    font-weight: bold;
+    background-color: red;
 }
