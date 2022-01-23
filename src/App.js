@@ -59,8 +59,14 @@ function App() {
 
           <Route exact path="/moods">
             <Navbar />
+            <div className='mainpage'>
+              <div className="combined">
+                
             <Moods />
-            <Footer/>
+                <Footer/>
+              </div>
+              <Ads/>
+            </div>
           </Route>
 
           <Route exact path="/mymusic">
