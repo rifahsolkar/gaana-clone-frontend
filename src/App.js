@@ -23,10 +23,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Switch>
+        <Switch>
           <Route exact path="/">
             <Navbar />
-            
+
             <div className='mainpage'>
               <Songs />
               <Ads />
@@ -36,9 +36,9 @@ function App() {
           <Route exact path="/trending">
             <Navbar />
             <div className='mainpage'>
-              <div className="combined">]
-            <Trend />
-            <Footer/>
+              <div className="combined">
+                <Trend />
+                <Footer />
 
               </div>
               <Ads />
@@ -49,9 +49,9 @@ function App() {
             <Navbar />
             <div className='mainpage'>
               <div className="combined">
-              
-            <Album />
-            <Footer/>
+
+                <Album />
+                <Footer />
               </div>
               <Ads />
             </div>
@@ -61,11 +61,11 @@ function App() {
             <Navbar />
             <div className='mainpage'>
               <div className="combined">
-                
-            <Moods />
-                <Footer/>
+
+                <Moods />
+                <Footer />
               </div>
-              <Ads/>
+              <Ads />
             </div>
           </Route>
 
@@ -73,10 +73,10 @@ function App() {
             <Navbar />
             <div className='mainpage'>
               <div className="combined">
-                <MyMusic/>
-                <Footer/>
+                <MyMusic />
+                <Footer />
               </div>
-              <Ads/>
+              <Ads />
             </div>
           </Route>
 
@@ -84,24 +84,24 @@ function App() {
             <Navbar />
             <div className='mainpage'>
               <div className="combined">
-            <NewSongs />
-            <Footer/>
-            </div>
+                <NewSongs />
+                <Footer />
+              </div>
               <Ads />
             </div>
-            
+
           </Route>
 
           <Route exact path="/oldsongs">
             <Navbar />
             <div className='mainpage'>
               <div className="combined">
-              <OldSongs />
-              <Footer/>
+                <OldSongs />
+                <Footer />
               </div>
               <Ads />
-              </div>
-            
+            </div>
+
           </Route>
 
           <Route exact path="/podcast">
@@ -109,8 +109,8 @@ function App() {
             <div className='mainpage'>
               <div className="combined">
 
-              <Podcast />
-              <Footer/>
+                <Podcast />
+                <Footer />
 
               </div>
               <Ads />
@@ -121,10 +121,10 @@ function App() {
             <Navbar />
             <div className='mainpage'>
               <div className="combined">
-              <Radio />
-              <Footer/>
+                <Radio />
+                <Footer />
               </div>
-            
+
               <Ads />
             </div>
           </Route>
@@ -135,10 +135,10 @@ function App() {
           </Route>
 
 
-      </Switch>
+        </Switch>
       </div>
 
-      </Router>
+    </Router>
 
   );
 }
